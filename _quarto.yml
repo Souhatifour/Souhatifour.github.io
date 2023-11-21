@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Souha Tifour"
+  #favicon: "images/favicon/path_2.ico"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: prof_exp.qmd
+        text: Work
+      - href: Research.qmd
+        text: Research
+      - href: Contact.qmd
+        text: Contact me
+      - text: "Who I am"
+        menu: 
+          - experience.qmd
+          #- Faculty Mentors.qmd
+          - Courses.qmd
+  page-footer:
+    background: light
+    left: "" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+          
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
